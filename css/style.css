@@ -1,0 +1,203 @@
+/****************************** header styling **********************************************/
+.header-container{
+    background-image: url(../images/background.jpg);
+    height: 750px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+.header-container .navbar{
+background-color: rgba(0, 0, 0, 0.67);
+height: 85px;
+z-index: 2;
+position:fixed;
+width: 200%;
+letter-spacing: 1px;
+}
+.tempo{
+    margin: 10px;
+    letter-spacing: 1px;
+}
+
+.header-container .navbar a:hover{
+    text-decoration: underline rgb(195, 3, 3);
+}
+.container-welcom{
+    position: relative;
+    z-index: 1;
+    letter-spacing: 1px;
+    padding-top: 90px;
+}
+.container-welcom h4{
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    border-radius: 20px;
+}
+.header-container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.7);
+}
+/* *********************************about styling ********************************/
+.about-container{
+    letter-spacing: 2px;
+}
+.container-about-grid{
+    letter-spacing: 1px;
+}
+.container-about-grid ol{
+    letter-spacing: normal;
+}
+.lern-more{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(196, 4, 4);
+    border-radius: 20px;
+    width: 200px;
+    height: 45px;
+}
+.learn-more2{
+    text-decoration: none;
+}
+/******************************* services styling starts here *****************************/
+.container-card{
+    letter-spacing: 2px;
+
+}
+.container-card .items{
+}
+
+.container-card .items :hover{
+    background-color: rgb(252, 7, 7);
+}
+
+.items-1 .card{
+    height: 60px;
+    padding-top: 10px;
+    width: 21%;
+}
+.div-container{
+    height: 300px;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
+    url(../images/pexels-vojtech-okenka-392018.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0;
+}
+.div-container p{
+    display: inline-block;
+    border-color: white;
+}
+.div-container p :hover{
+    background-color: rgb(176, 5, 5);
+}
+
+/*********************** portfolo styling ****************************/
+
+
+.portfolio-page{
+    width: 100%;
+    padding-right: 20px;
+}
+.portfolio p{
+    display: inline-block;
+    background-color:#f2f2f2;
+    border-radius: 15px;
+    width: 120px;
+}
+.portfolio-item{
+    padding-left: 450px;
+
+}
+.portfolio-2{
+    margin: 2px;
+    background-color: rgb(217, 7, 7);
+}
+.img-container img{   
+    width: 190%;
+    height: 190px;
+}
+/********************************************* pricing styling ***********************************************/
+.container-pricing .pricing-item{
+    background-color: #f9f9f9;
+    border: none;
+    padding: 20px;
+}
+.buy-now{
+    border-style:solid;
+    border-color: rgb(212, 5, 5);
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    margin-left: 80px;
+    
+}
+/******************************** FQR styling******************************* */
+.fqr{
+    padding-top: 80px;
+}
+.collapse1{
+    padding-bottom: 80px;
+}
+.collapse2{
+    padding-left: 300px;
+}
+.accordion-item{
+    letter-spacing: 1px;
+}
+
+/*********************************** team styling ***********************************/
+    .team-container{
+        padding-bottom: 35px;
+    
+    }
+   
+
+
+/********************************* footer styling *************************************/
+.send-message{
+    background-color: rgb(230, 7, 7);
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+.form-action{
+    position: absolute;
+    padding-top: 12px;
+}
+.subscribe{
+    background-color: rgb(206, 4, 4);
+    width: 26%;
+    height: 40px;
+    margin-left: 250px;
+    border-radius: 23px;
+    border:none;
+    position: relative;
+    bottom: 40px;
+
+}
+
+.email{
+    border-radius: 20px;
+    height: 40px;
+    width: 70%;
+}
+.footer-2{
+    height: 100px;
+    background-color:#f2f2f2;
+}
+.usefull-links a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    
+}
+.our-services a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
